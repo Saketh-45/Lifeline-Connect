@@ -3,7 +3,7 @@ import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAEVxSZq0brCvaJ3rMnDXx4OmLg5AUEk-w",
+  apiKey: " ",
   authDomain: "lifeline-connect-d1e89.firebaseapp.com",
   projectId: "lifeline-connect-d1e89",
   storageBucket: "lifeline-connect-d1e89.firebasestorage.app",
@@ -15,3 +15,4 @@ const app = initializeApp(firebaseConfig);
 
 export const auth = getAuth(app);
 export const db = getFirestore(app);
+
