@@ -37,7 +37,7 @@ export default function DonorMatches() {
   /* ================== GOOGLE MAPS API for Exact Distance ================== */
   const { isLoaded } = useJsApiLoader({
     id: 'google-map-script',
-    googleMapsApiKey: process.env.REACT_APP_GOOGLE_MAPS_API_KEY || "AIzaSyDiVRO1VnTwG0ygNBwmcdoWXeCFr6-IKc0",
+    googleMapsApiKey: process.env.REACT_APP_GOOGLE_MAPS_API_KEY || " ",
     libraries: ['places', 'geometry']
   });
 
@@ -402,3 +402,4 @@ export default function DonorMatches() {
     </div>
   );
 }
+
