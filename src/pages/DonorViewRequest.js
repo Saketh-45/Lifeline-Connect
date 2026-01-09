@@ -31,7 +31,7 @@ export default function DonorViewRequest() {
   const [showSuccess, setShowSuccess] = useState(false);
 
   // Use env key or fallback
-  const GOOGLE_MAPS_API_KEY = process.env.REACT_APP_GOOGLE_MAPS_API_KEY || "AIzaSyDiVRO1VnTwG0ygNBwmcdoWXeCFr6-IKc0";
+  const GOOGLE_MAPS_API_KEY = process.env.REACT_APP_GOOGLE_MAPS_API_KEY || " ";
 
   const { isLoaded, loadError } = useJsApiLoader({
     id: 'google-map-script',
@@ -500,4 +500,5 @@ export default function DonorViewRequest() {
       )}
     </div>
   );
+
 }
