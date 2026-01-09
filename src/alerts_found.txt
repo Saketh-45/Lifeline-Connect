@@ -1,0 +1,11 @@
+components\SettingsModal.js:                      setShowDeleteConfirm(true);
+components\SettingsModal.js:                  onClick={() => setShowDeleteConfirm(false)}
+components\SettingsModal.js:                    setShowDeleteConfirm(false);
+components\UserSettingsModal.js:            setShowDeleteConfirm(false);
+components\UserSettingsModal.js:                                <Button variant="light" className="px-4 fw-bold" onClick={() => setShowLogoutConfirm(false)}>Cancel</Button>
+components\UserSettingsModal.js:                                <Button variant="light" className="px-4 fw-bold" onClick={() => setShowDeleteConfirm(false)} disabled={isDeleting}>
+components\UserSettingsModal.js:                                    <button className="sidebar-signout-btn w-100" onClick={() => setShowLogoutConfirm(true)}>
+components\UserSettingsModal.js:                                            <Button variant="outline-danger" className="fw-bold rounded-3" size="sm" onClick={() => setShowDeleteConfirm(true)}>
+pages\MyRequests.js:      setShowDeleteConfirm(false);
+pages\MyRequests.js:                    setShowDeleteConfirm(true);
+pages\MyRequests.js:                onClick={() => setShowDeleteConfirm(false)}
